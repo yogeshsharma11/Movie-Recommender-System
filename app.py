@@ -17,7 +17,7 @@ selected_movie_name = st.selectbox(
 
 def fetch_poster(movie_id):
     try:
-        url = "https://api.themoviedb.org/3/movie/{}?api_key=6e7b6d29bb0422b89ed978d737f0d929".format(movie_id)
+        url = "https://api.themoviedb.org/3/movie/{}?api_key=YOUR_API_KEY".format(movie_id)
         response = requests.get(url)
         response.raise_for_status()  # Check for HTTP errors
         data = response.json()
