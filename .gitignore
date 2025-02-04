@@ -1,0 +1,16 @@
+## .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# Data files
+movies.pkl
+similarity.pkl
+
+# Streamlit cache
+.streamlit/
